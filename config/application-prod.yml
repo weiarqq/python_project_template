@@ -1,0 +1,37 @@
+application:
+  name: project_name
+  port: 8888
+  env: prod
+
+
+database:
+    mysql:
+      table_name:
+        host: 
+        user:
+        password:
+        database:
+        port: 3306
+        maxconnections: 50
+        limit_count: 2
+    redis:
+      yuqing_redis:
+        host:
+        password:
+    ots:
+      yuqing_ots:
+        end_point:
+        access_key_id: 
+        access_key_secret: 
+        instance_name: 
+        table_name: 
+        index_name: 
+    kafka:
+      kafka_topic:
+        kafka_topic: 
+        kafka_group: 
+        kafka_bootstrap_servers:
+          - kafka-data-online.middleware.huawei:9092
+log:
+  log_dir: /data/log/project_name
+

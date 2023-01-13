@@ -1,0 +1,8 @@
+infra-sdk==1.0.41 -i http://pypi-infra.jindidata.com/repository/pypi-all/simple  --trusted-host pypi-infra.jindidata.com
+PyYAML==6.0
+PyMySQL==1.0.2
+DBUtils
+redis
+tablestore
+kafka-python==2.0.2
+gunicorn
